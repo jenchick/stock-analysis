@@ -35,7 +35,7 @@ The refactored code appears to be more efficient and organized by making use of 
 
 [Refactored_Code_Slice.txt](https://github.com/jenchick/stock-analysis/files/8643994/Refactored_Code_Slice.txt)
 
-It was necessary for me to refer to the "hint" given in the Module in order to increase the volume of the current tickervolumes by using the tickerIndex variable as the index by using the suggested code of:  *tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value*
+It was necessary for me to refer to the "hint" given in the Module in order to increase the volume of the current tickervolumes by using the *tickerIndex* variable as the index by using the suggested code of: *tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value*
 
 In addition to refactoring the code, I also corrected the timer output statement from my original script to include proper spacing and sentence structure by use of the following code: *MsgBox "This code ran in " & (endTime - startTime) & "seconds for the year" & (yearValue)*
 
