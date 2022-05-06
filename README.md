@@ -6,7 +6,7 @@
 ## Overview of Project
 
 ### Purpose
-The purpose of this project is to expand a stock market analysis project for a single stock (DQ) to a larger subset of stocks (n=12).  I will also analyze the results of this stock market data from 2017 and 2018, along with refactoring code to determine if the new code positively affects performance of the scripts run to calculate stock performance.
+The purpose of this project is to expand a stock market analysis project for a single stock (DQ) to a larger subset of stocks (n=12).  The results of this stock market data from 2017 and 2018 will be compared and analyzed, along with refactoring code to determine if the new code positively affects performance of the scripts run to calculate yearly stock performance.
 
 ## Results: 
 ### Stock Performance
@@ -29,8 +29,7 @@ The results of the refactored script are copied below.  For 2017 and 2018, the c
 
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/102322707/167198094-138f5329-9834-4070-8db4-7c3dc5eb3af9.PNG)
 
-During the refactoring process, I referred to the "hint" given in the Module in order to increase the volume of the current tickervolumes by using the tickerIndex variable as the index by using the suggested code of:  *tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value*
-
+The refactored code appears to be more efficient and organized by making use of an index named *tickerIndex* and setting it to zero. I referred to the "hint" given in the Module in order to increase the volume of the current tickervolumes by using the tickerIndex variable as the index by using the suggested code of:  *tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value*
 
 In addition to refactoring the code, I also corrected the timer output statement from my original script to include proper spacing and sentence structure by use of the following code: *MsgBox "This code ran in " & (endTime - startTime) & "seconds for the year" & (yearValue)*
 
