@@ -16,11 +16,24 @@ As evidenced by the 2017 to 2018 Select Stock Performance graph below, stock per
 ![image](https://user-images.githubusercontent.com/102322707/166079568-b36c57c3-ad69-4a4a-bec8-812a360d6bc9.png)
 
 ### Script Performance
-The results of the original script are copied below.
+#### Original Script
+The results of the original script are copied below.  For both 2017 and 2018, the code ran in just over 1.03 seconds.  Both runs produced the expected output and formatting.
 
-![image]
+![AllStocks_run_2017](https://user-images.githubusercontent.com/102322707/167197444-f1370c71-8476-492b-bc6f-6fc6a00a50e2.PNG) 
+
+![AllStocks_run_2018](https://user-images.githubusercontent.com/102322707/167197559-4013a070-05a1-4019-9f78-0f76626f2d0c.PNG)
+
+#### Refactored Script
+The results of the refactored script are copied below.  For 2017 and 2018, the code ran in 0.160 and 0.133 seconds, respectively.  Both runs produced the same output and formatting as the original code, but ran much faster by 0.870 for 2017 and 0.897 seconds for 2018.
+
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/102322707/167198080-fca92884-5ff1-4755-950d-525ba376d15e.PNG)
+
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/102322707/167198094-138f5329-9834-4070-8db4-7c3dc5eb3af9.PNG)
+
+
 
 ## Summary: 
+
 In a summary statement, address the following questions.
 What are the advantages or disadvantages of refactoring code?
 How do these pros and cons apply to refactoring the original VBA script?
