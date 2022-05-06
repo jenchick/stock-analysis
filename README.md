@@ -6,16 +6,17 @@
 ## Overview of Project
 
 ### Purpose
-Explain the purpose of this analysis.
+The purpose of this project is to compare select stock data from 2017 and 2018, along with refactoring code to determine if the new code affects performance of the scripts.
 
 
 ## Results: 
-Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
+### Stock Performance
+
 
 
 ![image](https://user-images.githubusercontent.com/102322707/166079568-b36c57c3-ad69-4a4a-bec8-812a360d6bc9.png)
 
-
+### Script Performance
 
 ## Summary: 
 In a summary statement, address the following questions.
