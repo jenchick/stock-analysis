@@ -29,7 +29,13 @@ The results of the refactored script are copied below.  For 2017 and 2018, the c
 
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/102322707/167198094-138f5329-9834-4070-8db4-7c3dc5eb3af9.PNG)
 
-The refactored code appears to be more efficient and organized by making use of an index named *tickerIndex* and setting it to zero. I referred to the "hint" given in the Module in order to increase the volume of the current tickervolumes by using the tickerIndex variable as the index by using the suggested code of:  *tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value*
+The refactored code appears to be more efficient and organized by making use of an index named *tickerIndex* and facilitating a more efficent *FOR* loop throughout the script, as evidenced by a copy of the old code, followed by the refactored code:
+
+[Original_Code_Slice.txt](https://github.com/jenchick/stock-analysis/files/8643991/Original_Code_Slice.txt)
+
+[Refactored_Code_Slice.txt](https://github.com/jenchick/stock-analysis/files/8643994/Refactored_Code_Slice.txt)
+
+It was necessary for me to refer to the "hint" given in the Module in order to increase the volume of the current tickervolumes by using the tickerIndex variable as the index by using the suggested code of:  *tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value*
 
 In addition to refactoring the code, I also corrected the timer output statement from my original script to include proper spacing and sentence structure by use of the following code: *MsgBox "This code ran in " & (endTime - startTime) & "seconds for the year" & (yearValue)*
 
