@@ -30,7 +30,7 @@ The results of the refactored script are copied below.  For 2017 and 2018, the c
 
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/102322707/167198094-138f5329-9834-4070-8db4-7c3dc5eb3af9.PNG)
 
-
+The code was refactored....................(code examples)............... 
 
 ## Summary: 
 ### Advantages or Disadvantages of Refactoring Code
