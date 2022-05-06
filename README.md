@@ -16,7 +16,9 @@ As evidenced by the 2017 to 2018 Select Stock Performance graph below, stock per
 ![image](https://user-images.githubusercontent.com/102322707/166079568-b36c57c3-ad69-4a4a-bec8-812a360d6bc9.png)
 
 ### Script Performance
+The results of the original script are copied below.
 
+![image]
 
 ## Summary: 
 In a summary statement, address the following questions.
