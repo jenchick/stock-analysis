@@ -11,7 +11,7 @@ The purpose of this project is to compare select stock data from 2017 and 2018, 
 
 ## Results: 
 ### Stock Performance
-As evidenced by the 2017 to 2018 Select Stock Performance graph below, stock performance for 2017 produced better returns than the dismal performance of 2018. Only two stocks, ENPH and RUN produced positive returns in both years.  SEDG had the second best returns in 2017, with minimal losses is 2018.  Although DQ was the highest perfoming stock in 2017, it also had the highest overall loss in 2018, showing great volatility.
+As evidenced by the 2017 to 2018 Select Stock Performance graph below, stock performance for 2017 produced better returns than the dismal performance of 2018. Only two stocks, ENPH and RUN produced positive returns in both years.  SEDG had the second best returns in 2017, with minimal losses is 2018.  Although DQ was the highest perfoming stock in 2017, it also had the highest overall loss in 2018 showing great volatility.
 
 ![image](https://user-images.githubusercontent.com/102322707/166079568-b36c57c3-ad69-4a4a-bec8-812a360d6bc9.png)
 
@@ -24,7 +24,7 @@ The results of the original script are copied below.  For both 2017 and 2018, th
 ![AllStocks_run_2018](https://user-images.githubusercontent.com/102322707/167197559-4013a070-05a1-4019-9f78-0f76626f2d0c.PNG)
 
 #### Refactored Script
-The results of the refactored script are copied below.  For 2017 and 2018, the code ran in 0.160 and 0.133 seconds, respectively.  Both runs produced the same output and formatting as the original code, but ran much faster by 0.870 for 2017 and 0.897 seconds for 2018.
+The results of the refactored script are copied below.  For 2017 and 2018, the code ran in 0.160 and 0.133 seconds, respectively.  Both runs produced the same output and formatting as the original code, but ran much faster by 0.870 seconds for 2017 and 0.897 seconds for 2018.
 
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/102322707/167198080-fca92884-5ff1-4755-950d-525ba376d15e.PNG)
 
@@ -33,7 +33,11 @@ The results of the refactored script are copied below.  For 2017 and 2018, the c
 
 
 ## Summary: 
+### Advantages or Disadvantages of Refactoring Code
+In reviewing internet searches on the advantages and disadvantes of refactoring code, contributors to this question on Stackoverflow.com (https://stackoverflow.com/questions/43983284/what-are-the-advantages-and-disadvantages-of-refactoring-code-smell-in-software) summed it up best.  Possible advantages include better quality code, improved code maintenace, clear and precise organized code, and the discovery of bugs in the code .  Possible disadvantages include the time and resources taken to retest functionality utilizing new code; the bigger the application, the bigger the risk.
 
-In a summary statement, address the following questions.
-What are the advantages or disadvantages of refactoring code?
-How do these pros and cons apply to refactoring the original VBA script?
+
+### Pros and Cons to Refactoring the Original VBA Script
+One of the most obvious positive results to refactoring the original VBA Script is the speed in which the output was generated. The larger the data set, the more time would be saved with the refactored code.  Also, there would be a time savings depending on how many times the script would need to be run.  
+
+Three obstacles to refactoring the original VBA script would be the time and energy utilized for the person creating the new code, along with the knowledged needed to create the improved script.   
